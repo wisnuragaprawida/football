@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Team|info</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" href="/rexzy.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#651fff" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="deep-purple accent-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">Team</a>
+            <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container" id="body-content">
+        <div class="card" id="infoTeam">
+
+            <div class="loading"></div>
+
+        </div>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large deep-purple accent-3" id="save">
+                <i class="large material-icons">save</i>
+            </a>
+            <a class="btn-floating btn-large deep-purple accent-3" id="delete">
+                <i class="large material-icons">delete</i>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/action.js"></script>
+</body>
+
+</html>
