@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     btnDelete.onclick = function () {
         deleteTeamById();
         M.toast({ html: 'team deleted!' })
-        location.href = "index.html"
+        setTimeout(function(){  location.href = "index.html" }, 1000);
+       
     }
 });
